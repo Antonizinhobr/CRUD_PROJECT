@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: url(../Imagens/background-form.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.box {
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 8px;
+}
+
+.box h2 {
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-decoration: underline;
+}
+
+.box .inputText {
+    position: relative;
+}
+
+.box .inputText input {
+    width: 400px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    color: white;
+    font-size: 16px;
+}
+
+.box .inputText input[type="text"]{
+    color: white;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+.box .inputText label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px;
+    transition: .5s;
+    pointer-events: none;
+    color: white;
+}
+
+.box .inputText input:focus ~ label,
+.box .inputText input:valid ~ label {
+    top: -25px;
+    left: 0;
+    color: #03a9f4;
+    pointer-events: none;
+}
+
+.box input[type="submit"] {
+    border-radius: 6px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: white;
+    outline: none;
+    border: none;
+    transition: all 200ms ease-in-out;
+}
+
+.box input[type="submit"]:hover {
+   background: #03a9f4;
+   transform: scale(1.1);
+   letter-spacing: 1.1px;
+   font-weight: bold;
+   font-size: 20px;
+   border-top-left-radius: 28px;
+   border-bottom-right-radius: 28px;
+}
+
+.box a {
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+
+.box a:hover {
+    text-decoration: underline #03a9f4 2px;
+    color: #03a9f4;
+}
+
+input:-webkit-autofill {
+  -webkit-background: none;
+  transition: 5000000000000000000000000000000000000000000000000000s ease-in-out;
+}
+
+@media screen and (max-width: 730px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 8rem;
+        min-width: 0vh;
+        min-height: 0vh;
+    }
+
+    .box {
+        width: 250px;
+        height: 400px;
+    }
+
+    .box .inputText input {
+        width: 250px;
+    }
+}
+
