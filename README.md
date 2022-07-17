@@ -25,7 +25,6 @@
     <img src="/Imagens/readme/Git clone.png" />
     
 <br>
-<br>
 
 # O que é esse repositório?
 
