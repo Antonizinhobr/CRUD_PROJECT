@@ -1,0 +1,2 @@
+# Form-Responsive
+Um formulário feito em Html, totalmente estelizado com Css, e usado PHP como linguagem de Back-End, onde existem as funções de cadastro de usuários, login de usuários e recuperção de senha de usuários! Todos os arquivos estando em pastas separadamentes para melhor organização do projeto! Software Xampp usado para emular um servidor local em minha máquina pessoal, onde possui serviços apache web e possui nativamente o PHP versão 8 e MariaDB como banco de dados!
